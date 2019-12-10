@@ -1,0 +1,119 @@
+/* 样式 */
+.nodeList {
+    width: 100%;
+    /* height: 30px; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+.childrenList {
+    display: none;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+.childrenList .nodeList {
+    padding-left: 15px!important;
+}
+.nodeTop {
+    display: block;
+    float: left;
+    height: 30px;
+    width: calc(100% - 20px);
+    overflow: hidden;
+}
+.nodeIcon {
+    display: block;
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin-top: 7px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.allspreadIcon {
+    background: url('/public/365tree/img/close.png') no-repeat center;
+}
+.allspreadIconOn {
+    background: url('/public/365tree/img/opean.png') no-repeat center;
+}
+.spreadIcon {
+    background: url('/public/365tree/img/close.png') no-repeat center;
+}
+.spreadIconOn {
+    background: url('/public/365tree/img/opean.png') no-repeat center;
+}
+.nodeRadio {
+    background: url('/public/365tree/img/radio.png') no-repeat center;
+}
+.nodeRadioOn {
+    background: url('/public/365tree/img/radio-on.png') no-repeat center;
+}
+.nodeCheck {
+    background: url('/public/365tree/img/check.png') no-repeat center;
+}
+.nodeCheckOn {
+    background: url('/public/365tree/img/check-on.png') no-repeat center;
+}
+.nodeCheckHalfOn {
+    background: url('/public/365tree/img/check-half.png') no-repeat center;
+}
+.nodeMenu {
+    display: block;
+    float: left;
+
+    width: calc(100% - 20px);
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #6a7374;
+    line-height: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+.nodeMenu:hover{
+    color: #999;
+    text-decoration: underline;
+}
+.nodeMenuOn {
+    color: #0097ff;
+}
+.ac {
+    text-align: center;
+}
+/* 展开折叠样式 */
+.mtree-option-line {
+    width: 100%;
+    height: 36px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.option-line-left {
+    height: 100%;
+    float: left;
+}
+.option-all-icon {
+    display: block;
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin-top: 9px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.option-all-text {
+    display: block;
+    float: left;
+    height: 100%;
+    line-height: 36px;
+    font-size: 14px;
+    color: #333;
+    user-select: none;
+}
+.option-line-right {
+    height: 100%;
+    float: right;
+}
